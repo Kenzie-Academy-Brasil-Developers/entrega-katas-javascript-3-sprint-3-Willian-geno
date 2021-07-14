@@ -14,6 +14,7 @@ function kata1() {
         results[i] = (i+1)+' ';
         
  }
+    return results;
     showResults(results)
 }
 kata1();
@@ -25,6 +26,7 @@ function kata2() {
         results[i] = (contador)+' ';
         contador = contador-1   
  }
+    return results;
     showResults(results)
 }
 kata2();
@@ -36,6 +38,7 @@ function kata3() {
         results[i] = (contador)+' ';
         contador = contador - 1   
  }
+    return results;
     showResults(results)
 }
 
@@ -48,6 +51,7 @@ function kata4() {
         results[i] = (contador)+' ';
         contador = contador + 1;   
  }
+    return results;
     showResults(results)
 }
 kata4();
@@ -61,6 +65,7 @@ function kata5() {
             contador = contador + 1; 
         }
     }
+    return results;
     showResults(results);
 }
 kata5();
@@ -74,6 +79,7 @@ function kata6() {
             contador = contador + 1 
         }
     }
+    return results;
    showResults(results) 
 }
 kata6();
@@ -87,6 +93,7 @@ function kata7() {
             contador = contador + 1 
         }
     }
+    return results;
    showResults(results) 
 }
 kata7();
@@ -100,6 +107,7 @@ function kata8() {
             contador = contador + 1; 
         }
     }
+    return results;
    showResults(results) 
 }
 kata8();
@@ -113,6 +121,7 @@ function kata9() {
             contador = contador + 1; 
         }
     }
+    return results;
    showResults(results) 
 }
 kata9()
@@ -120,6 +129,7 @@ kata9()
 function kata10() {
     let results = sampleArray;
     showResults(results);
+    return results;
 }
 kata10()
 
@@ -132,6 +142,7 @@ function kata11() {
            contador = contador + 1; 
         }
     }
+    return results;
     showResults(results);
 }
 kata11();
@@ -145,6 +156,7 @@ function kata12() {
             contador = contador + 1; 
          }
      }
+    return results;
      showResults(results);
  }
 kata12();
@@ -158,6 +170,7 @@ function kata13() {
             contador = contador + 1; 
          }
      }
+     return results;
      showResults(results);
  }
 kata13();
@@ -167,6 +180,7 @@ function kata14() {
     for (i = 0; i <= sampleArray.length; i++){
             results[i] = sampleArray[i] * sampleArray[i];
          }
+     return results;
      showResults(results);
  }
 kata14();
@@ -176,6 +190,7 @@ function kata15() {
    for (i = 0; i <= 20; i++){
    results =  results + i;
    }
+   return results;
    showResults(results);
 }
 kata15();
@@ -185,6 +200,7 @@ function kata16() {
     for (i = 0; i <= (sampleArray.length - 1); i++){
     results =  results + sampleArray[i];
     }
+    return results;
     showResults(results);
  }
  kata16();
@@ -197,6 +213,7 @@ function kata17() {
             results = sampleArray [i]; 
         }  
     }
+    return results;
     showResults(results);
 }
 kata17();
@@ -208,6 +225,7 @@ function kata18() {
             results = sampleArray [i]; 
         }  
     }
+    return results;
     showResults(results);
 }
 kata18();
